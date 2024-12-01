@@ -20,12 +20,23 @@ class BasketBallPointersCounterApp extends StatelessWidget {
             ),
             Row(
               children: [
-                Text(
-                  "Team A",
-                  style: TextStyle(
-                    fontSize: 28,
-                    fontWeight: FontWeight.bold,
-                  ),
+                Column(
+                  children: [
+                    Text(
+                      "Team A",
+                      style: TextStyle(
+                        fontSize: 28,
+                        fontWeight: FontWeight.bold,
+                      ),
+                    ),
+                    Text(
+                      "0",
+                      style: TextStyle(
+                        fontSize: 95,
+                        fontWeight: FontWeight.bold,
+                      ),
+                    )
+                  ],
                 ),
               ],
             )
