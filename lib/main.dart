@@ -95,6 +95,13 @@ class BasketBallPointersCounterApp extends StatelessWidget {
                       ),
                     ],
                   ),
+                  const SizedBox(
+                    height: 350,
+                    child: VerticalDivider(
+                      color: Colors.grey,
+                      thickness: 1,
+                    ),
+                  ),
                   Column(
                     children: [
                       const Text(
