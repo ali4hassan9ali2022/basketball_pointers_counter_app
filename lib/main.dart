@@ -13,88 +13,164 @@ class BasketBallPointersCounterApp extends StatelessWidget {
       theme: ThemeData.dark(),
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        body: Column(
-          children: [
-            SizedBox(
-              height: 70,
-            ),
-            Row(
-              children: [
-                Column(
-                  children: [
-                    Text(
-                      "Team A",
-                      style: TextStyle(
-                        fontSize: 28,
-                        fontWeight: FontWeight.bold,
+        body: Padding(
+          padding: const EdgeInsets.symmetric(horizontal: 16),
+          child: Column(
+            children: [
+              const SizedBox(
+                height: 70,
+              ),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+                  Column(
+                    children: [
+                      const Text(
+                        "Team A",
+                        style: TextStyle(
+                          fontSize: 28,
+                          fontWeight: FontWeight.bold,
+                        ),
                       ),
-                    ),
-                    Text(
-                      "0",
-                      style: TextStyle(
-                        fontSize: 95,
-                        fontWeight: FontWeight.bold,
+                      const Text(
+                        "0",
+                        style: TextStyle(
+                          fontSize: 95,
+                          fontWeight: FontWeight.bold,
+                        ),
                       ),
-                    ),
-                    ElevatedButton(
-                      style: ElevatedButton.styleFrom(
-                        maximumSize: const Size(150, 50),
-                        backgroundColor: Colors.red,
-                      ),
-                      onPressed: () {},
-                      child: const Center(
-                        child: Text(
-                          "Add 1 point",
-                          style: TextStyle(
-                            color: Colors.white,
-                            fontSize: 16,
+                      ElevatedButton(
+                        style: ElevatedButton.styleFrom(
+                          maximumSize: const Size(150, 50),
+                          backgroundColor: Colors.red,
+                        ),
+                        onPressed: () {},
+                        child: const Center(
+                          child: Text(
+                            "Add 1 point",
+                            style: TextStyle(
+                              color: Colors.white,
+                              fontSize: 16,
+                            ),
                           ),
                         ),
                       ),
-                    ),
-                    const SizedBox(
-                      height: 16,
-                    ),
-                    ElevatedButton(
-                      style: ElevatedButton.styleFrom(
-                        maximumSize: const Size(150, 50),
-                        backgroundColor: Colors.red,
+                      const SizedBox(
+                        height: 16,
                       ),
-                      onPressed: () {},
-                      child: const Center(
-                        child: Text(
-                          "Add 2 points",
-                          style: TextStyle(
-                            color: Colors.white,
-                            fontSize: 16,
+                      ElevatedButton(
+                        style: ElevatedButton.styleFrom(
+                          maximumSize: const Size(150, 50),
+                          backgroundColor: Colors.red,
+                        ),
+                        onPressed: () {},
+                        child: const Center(
+                          child: Text(
+                            "Add 2 points",
+                            style: TextStyle(
+                              color: Colors.white,
+                              fontSize: 16,
+                            ),
                           ),
                         ),
                       ),
-                    ),
-                    const SizedBox(
-                      height: 16,
-                    ),
-                    ElevatedButton(
-                      style: ElevatedButton.styleFrom(
-                        maximumSize: const Size(150, 50),
-                        backgroundColor: Colors.red,
+                      const SizedBox(
+                        height: 16,
                       ),
-                      onPressed: () {},
-                      child: const Center(
-                        child: Text(
-                          "Add 3 points",
-                          style: TextStyle(
-                            color: Colors.white,
-                            fontSize: 16,
+                      ElevatedButton(
+                        style: ElevatedButton.styleFrom(
+                          maximumSize: const Size(150, 50),
+                          backgroundColor: Colors.red,
+                        ),
+                        onPressed: () {},
+                        child: const Center(
+                          child: Text(
+                            "Add 3 points",
+                            style: TextStyle(
+                              color: Colors.white,
+                              fontSize: 16,
+                            ),
                           ),
                         ),
                       ),
-                    ),
-                  ],
-                ),
-              ],
-            )
-          ],
+                    ],
+                  ),
+                  Column(
+                    children: [
+                      const Text(
+                        "Team B",
+                        style: TextStyle(
+                          fontSize: 28,
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
+                      const Text(
+                        "0",
+                        style: TextStyle(
+                          fontSize: 95,
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
+                      ElevatedButton(
+                        style: ElevatedButton.styleFrom(
+                          maximumSize: const Size(150, 50),
+                          backgroundColor: Colors.red,
+                        ),
+                        onPressed: () {},
+                        child: const Center(
+                          child: Text(
+                            "Add 1 point",
+                            style: TextStyle(
+                              color: Colors.white,
+                              fontSize: 16,
+                            ),
+                          ),
+                        ),
+                      ),
+                      const SizedBox(
+                        height: 16,
+                      ),
+                      ElevatedButton(
+                        style: ElevatedButton.styleFrom(
+                          maximumSize: const Size(150, 50),
+                          backgroundColor: Colors.red,
+                        ),
+                        onPressed: () {},
+                        child: const Center(
+                          child: Text(
+                            "Add 2 points",
+                            style: TextStyle(
+                              color: Colors.white,
+                              fontSize: 16,
+                            ),
+                          ),
+                        ),
+                      ),
+                      const SizedBox(
+                        height: 16,
+                      ),
+                      ElevatedButton(
+                        style: ElevatedButton.styleFrom(
+                          maximumSize: const Size(150, 50),
+                          backgroundColor: Colors.red,
+                        ),
+                        onPressed: () {},
+                        child: const Center(
+                          child: Text(
+                            "Add 3 points",
+                            style: TextStyle(
+                              color: Colors.white,
+                              fontSize: 16,
+                            ),
+                          ),
+                        ),
+                      ),
+                    ],
+                  ),
+                ],
+              ),
+            ],
+          ),
         ),
       ),
     );
