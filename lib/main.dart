@@ -35,7 +35,61 @@ class BasketBallPointersCounterApp extends StatelessWidget {
                         fontSize: 95,
                         fontWeight: FontWeight.bold,
                       ),
-                    )
+                    ),
+                    ElevatedButton(
+                      style: ElevatedButton.styleFrom(
+                        maximumSize: const Size(150, 50),
+                        backgroundColor: Colors.red,
+                      ),
+                      onPressed: () {},
+                      child: const Center(
+                        child: Text(
+                          "Add 1 point",
+                          style: TextStyle(
+                            color: Colors.white,
+                            fontSize: 16,
+                          ),
+                        ),
+                      ),
+                    ),
+                    const SizedBox(
+                      height: 16,
+                    ),
+                    ElevatedButton(
+                      style: ElevatedButton.styleFrom(
+                        maximumSize: const Size(150, 50),
+                        backgroundColor: Colors.red,
+                      ),
+                      onPressed: () {},
+                      child: const Center(
+                        child: Text(
+                          "Add 2 points",
+                          style: TextStyle(
+                            color: Colors.white,
+                            fontSize: 16,
+                          ),
+                        ),
+                      ),
+                    ),
+                    const SizedBox(
+                      height: 16,
+                    ),
+                    ElevatedButton(
+                      style: ElevatedButton.styleFrom(
+                        maximumSize: const Size(150, 50),
+                        backgroundColor: Colors.red,
+                      ),
+                      onPressed: () {},
+                      child: const Center(
+                        child: Text(
+                          "Add 3 points",
+                          style: TextStyle(
+                            color: Colors.white,
+                            fontSize: 16,
+                          ),
+                        ),
+                      ),
+                    ),
                   ],
                 ),
               ],
