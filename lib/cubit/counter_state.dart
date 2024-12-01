@@ -1,5 +1,5 @@
+abstract class CounterState {}
+class ResetState extends CounterState {}
+class CounterAIncrementState extends CounterState {}
 
-abstract class CounterCubitState {}
-
-final class CounterAIncrementState extends CounterCubitState {}
-final class CounterBIncrementState extends CounterCubitState {}
+class CounterBIncrementState extends CounterState {}
