@@ -18,7 +18,7 @@ class BasketBallPointersCounterApp extends StatelessWidget {
           child: Column(
             children: [
               const SizedBox(
-                height: 70,
+                height: 100,
               ),
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -176,6 +176,24 @@ class BasketBallPointersCounterApp extends StatelessWidget {
                   ),
                 ],
               ),
+              const Spacer(),
+              ElevatedButton(
+                style: ElevatedButton.styleFrom(
+                  maximumSize: const Size(150, 50),
+                  backgroundColor: Colors.blue,
+                ),
+                onPressed: () {},
+                child: const Center(
+                  child: Text(
+                    "Reset",
+                    style: TextStyle(
+                      color: Colors.white,
+                      fontSize: 18,
+                    ),
+                  ),
+                ),
+              ),
+              const Spacer(),
             ],
           ),
         ),
